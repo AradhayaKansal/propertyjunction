@@ -1,0 +1,36 @@
+﻿{
+  "webroot": "wwwroot",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNet.Server.IIS": "1.0.0-beta5",
+    "Microsoft.AspNet.Mvc": "6.0.0-beta5",
+    "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-beta5",
+    "PropertyJunction.Business": "1.0.0-*",
+    "PropertyJunction.Entities": "1.0.0-*",
+    "PropertyJunction.Common": "1.0.0-*",
+"Twitter.Bootstrap.MVC": "2.1.6"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Hosting --config hosting.ini"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnx500": { },
+  },
+
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ]
+}

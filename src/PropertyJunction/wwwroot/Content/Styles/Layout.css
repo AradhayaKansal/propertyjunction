@@ -1,0 +1,53 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+div.top {
+    background-color: #23282d;
+    height: 30px;
+}
+
+div.pj-top-left {
+    width: 80%;
+    display: inline-block;
+}
+
+div.pj-top-right {
+    color: white;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+div.header {
+    background-color: #e5e3e3;
+    height: 50px;
+}
+
+div.header-inner {
+    margin: 0 auto;
+    width: 90%;
+}
+
+div.logo {
+    display: inline-block;
+}
+
+div.navigation {
+    float: right;
+    display: inline-block;
+}
+
+a.pj-anchors {
+    cursor: pointer;
+    color: white;
+    display: block;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.glyphicon glyphicon-envelope {
+}
