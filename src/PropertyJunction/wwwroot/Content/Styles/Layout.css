@@ -4,6 +4,13 @@
 }
 
 body {
+    background: #fcfcfc;
+}
+
+div.header-container:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 div.top {
@@ -97,9 +104,138 @@ a.pj-anchors {
     display: block;
     display: inline-block;
     margin-left: 5px;
+    margin-right: 20px;
 }
 
 .glyphicon glyphicon-envelope {
 }
 
-/* Home Page Changes */
+div.clear-float {
+    clear: both;
+}
+
+div.footer {
+    background-color: #23282d;
+    height: 50px;
+}
+
+div.footer-inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+div.pj-footer-left {
+    color: #FFF;
+    padding: 15px 25px;
+}
+
+/*=============================== Home Page Changes Start ================================= */
+div.page-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+div.slide-show-cotainer {
+    position: relative;
+    /*height: 640px*/
+}
+
+.slide-show {
+    /*height: 100%;*/
+}
+
+.slide {
+    /*height: 100%;*/
+    display: none;
+    position: absolute;
+}
+
+    .slide.active {
+        display: block;
+    }
+
+.slider-nav {
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 56px;
+    height: 60px;
+    background: url(../Images/wp-content/arrows.png) no-repeat;
+    text-indent: -9999px;
+    border: 0;
+    cursor: pointer;
+}
+
+    .slider-nav.prev {
+        background-position: 0px 0;
+        left: 0px;
+    }
+
+    .slider-nav.next {
+        background-position: -56px 0;
+        right: 0px;
+    }
+
+.slide-show .slide img {
+    max-width: 100%;
+}
+
+div.search-form {
+    margin: 15px;
+    padding: 10px;
+}
+
+div.label-container {
+    font-size: 1.8em;
+}
+
+div.search-box {
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    overflow: auto;
+    padding: 15px 10px 20px 10px;
+}
+
+div.home-page-search-form label {
+    display: block;
+    font-weight: lighter;
+    margin-bottom: 6px;
+    font-size: 1em;
+}
+
+div.home-page-search-form input, div.home-page-search-form select {
+    background-color: #ffffff;
+    border: 1px solid #e0e0de;
+    font-family: arial;
+    font-size: 14px;
+    height: 30px;
+    line-height: 25px;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    width: 100%;
+}
+
+div.home-page-search-form button.search-button {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #e04546;
+    border: 0px solid #005195;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 21px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+div.col-range {
+    padding: 0 0 0 6px;
+}
+
+select.smalldropdown {
+    margin-right: 10px;
+    padding-right: 0px;
+    width: 97%;
+}
+/*================================ Home Page Changes End ================================== */

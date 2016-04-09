@@ -3,6 +3,10 @@
 $(document).ready(function () {
     StartSlider();
     $('.slider-nav').on('click', ChangeSlide);
+    $('.slide-show').height($('.slide').height());
+    $(window).on('resize', function () {
+        $('.slide-show').height($('.slide').height());
+    });
 });
 
 function ChangeSlide() {

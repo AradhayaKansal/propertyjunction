@@ -24,4 +24,73 @@
         <div class="slider-nav prev"></div>
         <div class="slider-nav next"></div>
     </div>
+    <div class="page-section">
+        <div class="search-form">
+            <div class="label-container">Search Properties</div>
+            <div class="search-box">
+                <div class="home-page-search-form">
+
+                    <div class="homepage-format col-xs-12 col-sm-4 col-md-4">
+                        <label>Location</label>
+                        <input id="location" name="location" value="">
+                    </div>
+
+                    <div class="homepage-format col-xs-12 col-sm-4 col-md-4">
+                        <label>Property Type</label>
+                        <select name="type" id="type">
+                            <option value="select">Select</option>
+                            <option value="villa">Villa</option>
+                            <option value="flat">Flat</option>
+                            <option value="plot">Plot</option>
+                            <option value="penthouse">Penthouse</option>
+                            <option value="bungalow">Bungalow</option>
+                            <option value="commercials">Commercials</option>
+                        </select>
+                    </div>
+
+                    <div class="homepage-format col-xs-12 col-sm-4 col-md-4">
+                        <label>Buy or Rent</label>
+                        <select name="buyrent" id="buyrent">
+                            <option value="select">Select</option>
+                            <option value="buy">Buy</option>
+                            <option value="rent">Rent</option>
+                        </select>
+                    </div>
+
+                    <div class="homepage-format col-xs-12 col-sm-4 col-md-4">
+                        <label>Bedrooms</label>
+                        <div class="col-xs-12 col-sm-12 col-md-6 no-margin col-range">
+                            <select name="room_no_min" id="room_no_min" class="smalldropdown">
+                                <option value="1">Min</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 no-margin col-range">
+                            <select name="room_no_max" id="room_no_max" class="smalldropdown">
+                                <option value="1">Max</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="homepage-format col-xs-12 col-sm-4 col-md-4">
+                        <label>Price/Rent</label>
+                        <div id="rsbuy">
+                            <div class="col-xs-12 col-sm-12 col-md-6 no-margin col-range">
+                                <select name="min_val_buy" id="min_val_buy" class="smalldropdown">
+                                    <option value="1">Min</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 no-margin col-range">
+                                <select name="max_val_buy" id="max_val_buy" class="smalldropdown">
+                                    <option value="1000000000">Max</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 topmargin">
+                        <button type="submit" class="search-button">Find Property</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

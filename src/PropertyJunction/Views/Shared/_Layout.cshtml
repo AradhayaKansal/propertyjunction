@@ -15,16 +15,19 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
+    <div class="header-container">
         <div class="top">
             <div class="top-inner">
                 <div class="pj-top-left"></div>
-                <div class="pj-top-right"><span class="glyphicon glyphicon-envelope"></span><a class="pj-anchors" href="mailto:contact@propertyjunction.co.in">contact@propertyjunction.co.in</a></div>
+                <div class="pj-top-right">
+                    <span class="glyphicon glyphicon-envelope"></span><a class="pj-anchors" href="mailto:contact@propertyjunction.co.in">contact@propertyjunction.co.in</a>
+                    <span class="glyphicon glyphicon-phone"></span><a class="pj-anchors" href="mailto:contact@propertyjunction.co.in">+91 000-000-0000</a>
+                </div>
             </div>
         </div>
-        <div class="header" >
+        <div class="header">
             <div class="header-inner">
-                <div class="logo" >
+                <div class="logo">
                     <a href="@Url.Content("~/Home")">
                         <h1 style="margin-top: 0px;">
                             Property Junction
@@ -52,9 +55,13 @@
     <div>
         @RenderBody()
     </div>
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="pj-footer-left">© PropertyJunction.co.in, 2016. All rights reserved. Terms and conditions</div>
+        </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 </body>
