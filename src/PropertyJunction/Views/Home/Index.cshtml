@@ -5,4 +5,23 @@
     // ViewBag.Title = "Home Page";
     Layout = "_Layout";
 }
-<h1></h1>
+<div class="content">
+    <div class="slide-show-cotainer">
+        <div class="slide-show">
+            <div class="slide active">
+                <img src="@Url.Content("~/Content/Images/wp-content/slider-image1.png")" />
+            </div>
+            <div class="slide">
+                <img src="@Url.Content("~/Content/Images/wp-content/slider-image2.png")" />
+            </div>
+            <div class="slide">
+                <img src="@Url.Content("~/Content/Images/wp-content/slider-image3.png")" />
+            </div>
+            <div class="slide">
+                <img src="@Url.Content("~/Content/Images/wp-content/slider-image4.png")" />
+            </div>
+        </div>
+        <div class="slider-nav prev"></div>
+        <div class="slider-nav next"></div>
+    </div>
+</div>

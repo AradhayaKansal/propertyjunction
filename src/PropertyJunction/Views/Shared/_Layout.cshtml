@@ -17,19 +17,23 @@
 <body>
     <div>
         <div class="top">
-            <div class="pj-top-left"></div>
-            <div class="pj-top-right"><span class="glyphicon glyphicon-envelope"></span><a class="pj-anchors" href="mailto:contact@propertyjunction.co.in">contact@propertyjunction.co.in</a></div>
+            <div class="top-inner">
+                <div class="pj-top-left"></div>
+                <div class="pj-top-right"><span class="glyphicon glyphicon-envelope"></span><a class="pj-anchors" href="mailto:contact@propertyjunction.co.in">contact@propertyjunction.co.in</a></div>
+            </div>
         </div>
         <div class="header" >
             <div class="header-inner">
                 <div class="logo" >
-                    <h1 style="margin-top: 0px;">
-                        <a href="@Url.Content("~/Home")"><img src="@Url.Content("~/Content/Images/logo.png")" /></a>
-                    </h1>
+                    <a href="@Url.Content("~/Home")">
+                        <h1 style="margin-top: 0px;">
+                            Property Junction
+                        </h1>
+                    </a>
                 </div>
                 <div class="navigation">
                     <ul class="nav navbar-nav">
-                        <li ><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Home</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Properties <span class="caret"></span></a>
                             <ul class="dropdown-menu">
