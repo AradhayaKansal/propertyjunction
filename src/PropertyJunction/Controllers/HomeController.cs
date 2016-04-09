@@ -8,7 +8,7 @@ namespace PropertyJunction.Controllers
     public class HomeController : Controller
     {
         #region variables
-        readonly string CONST_SITE_URL = "PropertyJunction.co.in\\Home";
+        readonly string CONST_SITE_URL = "PropertyJunction.co.in....";
         #endregion
 
         #region controllers
